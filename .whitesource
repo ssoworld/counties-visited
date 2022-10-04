@@ -1,11 +1,4 @@
 {
-  "remediateSettings": {
-    "enableRenovate": true,
-    "extends": ["config:base"],
-    "enabledManagers": [
-      "yarn"
-    ],
-  },
   "scanSettings": {
    "baseBranches": []
  },
