@@ -4,8 +4,13 @@
   "enabledManagers": ["npm"],
   "packageRules": [
     {
+      "matchPackagePatterns":[
+        "*"
+      ],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": "true"
+      "automerge": true,
+      "groupName": "Minor and Patch dependencies",
+      "groupSlug": "all"
     }
   ]
 }
